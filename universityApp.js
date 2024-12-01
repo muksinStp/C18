@@ -1,7 +1,12 @@
+//ecma5
+// const sqlite3 = require("sqlite3").verbose();
+// const readline = require("readline");
+// const Table = require("cli-table3");
 
-const sqlite3 = require("sqlite3").verbose();
-const readline = require("readline");
-const Table = require("cli-table3");
+//ECMA6
+import sqlite3 from 'sqlite3'; 
+import readline from 'readline'; 
+import Table from 'cli-table3';
 
 // Buat Koneksi Database
 const db = new sqlite3.Database("university.db");
